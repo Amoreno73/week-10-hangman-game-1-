@@ -1,5 +1,5 @@
-def returnS():
-  pass
+# def returnS():
+#   # pass
 
 ########################################################################################################################
     # allow us to create blocks of code that can be easily executed  many times and in different contexts without the need to rewrite the entire block
@@ -7,7 +7,8 @@ def returnS():
   # Create a function called power that takes two numeric values as arguments. It must return the number that results from solving a power, 
   # using the first number as the base, and the second as the exponent:
 
-
+def power(num1,num2):
+  return num1**num2
 
 
 
@@ -20,7 +21,7 @@ def returnS():
 
 # Hint: to perform the conversion, the function internally must multiply this value in dollars by 0.90 to obtain the equivalent amount in euros.
 
-
+def usd_to_eur
 
 
 
