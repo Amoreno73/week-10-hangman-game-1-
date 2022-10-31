@@ -1,11 +1,19 @@
 def check_3Digits(list1):
   # return number in range(100,1000)
+  three_digit_list = []
   for n in list1:
     if n in range(100,1000):
+      three_digit_list.append(n)
       return True
     else:
       pass
-    
+  return three_digit_list
+  
+    #the reason we cannot put in "return False" is because it will return False
+      #even when one number is not in the range.
+      #for the numbers 55,66,600, the first 2 will be passed but the last one is True
+  #we can return False but it has to be outside the loop.
+      
 
 
 
