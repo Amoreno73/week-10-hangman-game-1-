@@ -1,7 +1,7 @@
 # from methods_help import method_help
 # from functions import welcome, add_numbers, num_dividedFrom_add_numbers, greet, square
 # from returnStuff import power, usd_to_eur
-from dynamic_functions import check_3Digits
+from dynamic_functions import check_3Digits, all_positives, sum_less
 
 # method_help()
 # # function()
@@ -24,3 +24,8 @@ from dynamic_functions import check_3Digits
 result = check_3Digits([55,99,600])
 print(result) #result becomes a boolean
 
+result2 = all_positives([102,-47,1240])
+print(result2)
+
+result3 = sum_less([1,2,3,4])
+print(result3)
