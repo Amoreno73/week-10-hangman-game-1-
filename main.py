@@ -20,5 +20,6 @@ from dynamic_functions import check_3Digits
 # print(powerof)
 # conversion = usd_to_eur(10)
 # print(conversion)
-result = check_3Digits(1000)
+# sum = 526 + 345
+result = check_3Digits([55,99,6000])
 print(result) #result becomes a boolean
