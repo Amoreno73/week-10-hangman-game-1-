@@ -21,7 +21,9 @@ def power(num1,num2):
 
 # Hint: to perform the conversion, the function internally must multiply this value in dollars by 0.90 to obtain the equivalent amount in euros.
 
-def usd_to_eur
+def usd_to_eur(usd):
+  eur = 0.9
+  return usd*eur
 
 
 
